@@ -1,0 +1,11 @@
+TrialST.java: instrumented an algorithm to print tables measuring the effiency of the following symbol table data structures: AVL tree, BST, LinearProbingHashSt, 
+SequentialChainingHashST, and SequentialSearchST.
+
+MergeMaxPQ.java: devised an algorithm that takes two max heaps of size M and N and returns an array of size M+N containing the combined items from M and N in increasing order.
+
+MaxPQ: instrumented a class for max priority queue data type to keep track of key operations, less() and exch().
+
+BST.java: Created the following structural, read-only, and modifying binary search tree method: return a copy of the BST, return an int that computes the total number of nodes in the BST whose int values
+are even, return a Queue<Integer> that contains the integer depths for all nodes in the BST, remove all leaf nodes that contain odd key values.
+
+TestBST.java: test class to test my binary search tree methods
