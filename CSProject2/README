@@ -1,0 +1,10 @@
+Analysis.java: instrumented algorithm to count a key operation ran. Then, used statistics to develop the recurrence relationship and compute the closed form formula for the key operation.
+
+Tournament.java: instrumented algorithm that uses a max priority heap to find the largest and second largest value of an initially empty heap of size N
+for the following three input conditions: when values are inserted in ascending order from 0 to (N-1), when values are inserted in descending order from N-1 to 0, and when N random integers are inserted using Random function. 
+Printed out the best case, average case, and worst case tables for the three scenarios.
+
+Memory.java: 
+Memory Allocation API - implemented an API using java to manage dynamically stored memory through supporting the allocation and freeing of memory. I did this by tracking available and allocated memory space, along with each of their addresses by using linked lists.
+
+ValidateMemory.java, StressProgram.java: test programs to run to test my memory allocation API.
