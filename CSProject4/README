@@ -1,0 +1,19 @@
+Airport Application Domain:
+
+FilterLower48: Created a method that filters airports that are in the United States and whose GPS coordinates are within a specified bounding box.
+
+Overlap.java: traversed through separate chaining hash symbol table which stores the ICAO codes of each airport in the graph and look for codes that are served by Southwest and not 
+Delta.
+
+Connected.java: used depth first search to traverse the graph to find which two airports you cannot reach from Boston from any possible path and from which carrier(Southwest or Delta)
+
+Hub.java = traversed through each vertex in the Southwest and Delta undirected graphs to find which airports are connected to at least 75 other aiports by direct flight and list the number of direct flights found.
+
+FlightStats.java: traversed through vertxes in the Southwest and Delta graphs to find the longest, shortest, and average direct flight distance in each system.
+
+LongestofShortest.java: created an adjacent matrix edge-weighted digraph and used Floyd-Warshall algorithm to find the shortest possible paths between all pairs airports in the graph. Printed the largest of these shortest paths, along with
+actual distance between airports, the actual flight path, and efficiency of each carrier.
+
+MapSearch.java: used breadth-first search, depth-first search, and Dikstra's single source shortest path algorithm to analyze a highway map
+
+Histogram.java: used an AVL tree to record the frequency of specific values in order to analyze the collected airport system data.
