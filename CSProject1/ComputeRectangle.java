@@ -18,7 +18,6 @@ import algs.hw1.fixed.er.TrialEmbeddedRectangle;
  *    000111110
  *    000111110
  *    000111110
- *    000111110
  *  
  * Your challenge will be to find the location of randomly generated rectangles within a Storage of suitable 
  * dimension. For the above Storage, your program should report (row=1, col=3, numRows=4, numCols=5).
